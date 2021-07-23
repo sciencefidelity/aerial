@@ -1,0 +1,10 @@
+{
+  "actions" : {
+    "run" : {
+      "enabled" : true,
+      "script" : "flutter run"
+    }
+  },
+  "identifier" : "7632106D-F506-4E92-82CE-159F8DE54AF3",
+  "openLogOnRun" : "start"
+}
