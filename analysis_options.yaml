@@ -9,7 +9,3 @@ analyzer:
 
 linter:
   rules:
-    - cancel_subscriptions
-    - prefer_single_quotes
-    # - flutter_style_todos
-    - unnecessary_parenthesis
