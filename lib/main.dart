@@ -1,22 +1,25 @@
 import 'package:english_words/english_words.dart';
 import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Startup Name Generator',
       theme: ThemeData(
+        // TODO: Choose a primary color
         primaryColor: Colors.purple,
       ),
-      home: RandomWords(),
+      home: const RandomWords(),
     );
   }
 }
 
 class RandomWords extends StatefulWidget {
+  const RandomWords({Key? key}) : super(key: key);
   @override
   _RandomWordsState createState() => _RandomWordsState();
 }
@@ -46,7 +49,7 @@ class _RandomWordsState extends State<RandomWords> {
 
           return Scaffold(
             appBar: AppBar(
-              title: Text('Saved Suggestions'),
+              title: const Text('Saved Suggestions'),
             ),
             body: ListView(children: divided),
           );
@@ -61,7 +64,7 @@ class _RandomWordsState extends State<RandomWords> {
       appBar: AppBar(
         title: const Text('Startup Name Generator'),
         actions: [
-          IconButton(icon: Icon(Icons.list), onPressed: _pushSaved),
+          IconButton(icon: const Icon(Icons.list), onPressed: _pushSaved),
         ],
       ),
       body: _buildSuggestions(),
