@@ -1,5 +1,13 @@
 {
   "actions" : {
+    "build" : {
+      "enabled" : true,
+      "script" : "flutter build"
+    },
+    "clean" : {
+      "enabled" : true,
+      "script" : "flutter clean"
+    },
     "run" : {
       "enabled" : true,
       "script" : "flutter run"
