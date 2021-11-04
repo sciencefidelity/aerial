@@ -1,7 +1,7 @@
 {
-  "name": "snowpack-react",
+  "name": "sound-forage",
   "version": "0.1.0",
-  "description": "TODO",
+  "description": "A residency forage for sound in Brecon",
   "author": "Matt Cook <matt@sciencefidelity.co.uk>",
   "license": "MIT",
   "private": true,
