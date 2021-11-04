@@ -2,15 +2,15 @@
   "actions" : {
     "build" : {
       "enabled" : true,
-      "script" : "flutter build"
+      "script" : "yarn build"
     },
     "clean" : {
       "enabled" : true,
-      "script" : "flutter clean"
+      "script" : "yarn clean"
     },
     "run" : {
       "enabled" : true,
-      "script" : "flutter run"
+      "script" : "yarn dev"
     }
   },
   "identifier" : "7632106D-F506-4E92-82CE-159F8DE54AF3",

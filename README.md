@@ -1,16 +1,37 @@
-# aerial
+# Snowpack React Template
 
-A new Flutter project.
+A full featured template for developing React apps with Snowpack. Includes config for Eslint, Prettier and Stylelint, and Web Test Runner with Testing Library.
 
-## Getting Started
+### Commands
 
-This project is a starting point for a Flutter application.
+```shell
+yarn dev
+```
 
-A few resources to get you started if this is your first Flutter project:
+```shell
+yarn build
+```
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+```shell
+yarn serve
+```
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```shell
+yarn clean
+```
+
+```shell
+yarn lint
+```
+
+```shell
+yarn fix
+```
+
+```shell
+yarn test
+```
+
+```shell
+yarn coverage
+```
