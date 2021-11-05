@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "description": "A residency forage for sound in Brecon",
   "author": "Matt Cook <matt@sciencefidelity.co.uk>",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "private": true,
   "scripts": {
     "dev": "snowpack dev",
-    "build": "snowpack build",
+    "build": "snowpack:w: build",
     "serve": "serve build -l 8080",
     "clean": "rm -rf build && yarn snowpack --reload",
     "lint": "concurrently 'yarn:lint:*'",
