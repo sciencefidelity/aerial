@@ -2,23 +2,25 @@
 
 header,
 footer {
-  color: c.$light-blue;
+  color: c.$grey-800;
   padding: 2rem 0;
-  text-align: center;
   width: 100vw;
+  padding: 2rem 2rem;
+  max-width: 70rem;
 }
 
 header {
-  border-bottom: 1px solid c.$light-blue;
+  border-bottom: 1px solid c.$grey-000;
+  font-size: 3rem;
 }
 
 footer {
-  border-top: 1px solid c.$light-blue;
+  border-top: 1px solid c.$grey-800;
 }
 
 nav {
-  background-color: c.$light-blue;
-  color: c.$dark-blue;
+  background-color: c.$grey-000;
+  color: c.$grey-800;
   display: grid;
   font-weight: 600;
   padding: 1rem 2rem;
@@ -26,7 +28,7 @@ nav {
   text-align: center;
   width: 100%;
   a {
-    color: c.$dark-blue;
+    color: c.$grey-800;
     text-decoration: none;
     &:hover {
       text-decoration: underline;
