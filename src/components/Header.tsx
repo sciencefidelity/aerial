@@ -4,7 +4,7 @@ const Header: FC = () => {
   return (
     <header>
       <p>
-        <strong>Create-React-Snowpack-App</strong>
+        <strong>Brecon Sound Forage</strong>
       </p>
     </header>
   )
