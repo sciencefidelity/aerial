@@ -2,7 +2,6 @@ import React, { FC } from "react"
 
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
-import Navbar from "@/components/Navbar"
 import "@/styles/layout.scss"
 
 interface Props {
@@ -14,7 +13,6 @@ const Layout: FC<Props> = ({ children }) => {
     <div className="parent">
       <div>
         <Header />
-        <Navbar />
       </div>
       <div>
         <main>{children}</main>
