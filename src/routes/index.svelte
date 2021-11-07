@@ -30,7 +30,7 @@
     <div class="home">
       <picture>
         <source srcset="site.webp" type="image/webp" />
-        <img src="site.png" alt="Island Fields map" />
+        <img src="site.jpg" alt="Island Fields map" />
       </picture>
       <div style="height: 3rem" />
       <p>
