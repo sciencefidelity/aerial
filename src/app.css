@@ -33,6 +33,7 @@ p:last-child {
 
 img {
   width: 100%;
+  height: auto;
 }
 
 header,
