@@ -1,0 +1,36 @@
+* + * {
+  margin-top: 1rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  background-color: #FFFFFF;
+  font-size: 62.5%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: #FFFFFF;
+  color: #333333;
+  font-family: 'Inconsolata', sans-serif;
+  font-size: calc(7px + 2vmin);
+  margin: auto;
+  line-height: 1.25;
+}
+
+p {
+  padding-bottom: 2rem;
+}
+
+p:last-child {
+  padding-bottom: 0;
+}
+
+img {
+  width: 100%;
+}

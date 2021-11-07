@@ -1,0 +1,49 @@
+<script context="module">
+  import { browser, dev } from '$app/env';
+
+  // we don't need any JS on this page, though we'll load
+  // it in dev so that we get hot module replacement...
+  export const hydrate = dev;
+
+  // ...but if the client-side router is already loaded
+  // (i.e. we came here from elsewhere in the app), use it
+  export const router = browser;
+
+  // since there's no dynamic data here, we can prerender
+  // it so that it gets served as a static asset in prod
+  export const prerender = true;
+</script>
+
+<svelte:head>
+  <title>Brecon Sound Forage</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;800&display=swap" rel="stylesheet">
+</svelte:head>
+
+<section>
+  <main>
+    <div class="home">
+      <img src="site.jpg" alt="Island Fields map" />
+      <div style="height: 3rem"></div>
+      <p>
+        Climate Change in Brecknockshire results in irregular storms and significant increases in rainfall. A series of field recordings gathered throughout Autumn 2021, this work celebrates, archives and critiques the biodiversity of Brecon’s Island Fields, a flood plain situated between the River Usk and the Monmouthshire and Brecon Canal on the edge of the town. The whole ecosystem here is at risk due to increased flooding at times of the year when the nature here is vulnerable. The Island Fields is a space well loved by the local community for walking, playing, swimming and the enjoyment of the natural World.
+      </p>
+      <p>
+        Artscape artist-in-residence Matt Cook has developed this work through a series of interactions with ornithologist Andrew King; the Biodiversity Information Service for Powys and local green wood workers.
+      </p>
+    </div>
+  </main>
+</section>
+
+<style>
+  .home {
+    padding: 2rem 2rem 5rem 2rem;
+    max-width: 70rem;
+    margin-right: auto;
+  }
+
+  .home p {
+    margin: 0.4rem;
+  }
+</style>
