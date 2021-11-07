@@ -6,8 +6,6 @@ import "sanitize.css/assets.css"
 import "sanitize.css/reduce-motion.css"
 import "sanitize.css/typography.css"
 import "@/styles/globals.scss"
-import About from "@/pages/About"
-import Counter from "@/pages/Counter"
 import Home from "@/pages/Home"
 import NotFound from "@/pages/404"
 
@@ -16,8 +14,6 @@ ReactDOM.render(
   <React.StrictMode>
     <Router>
       <Home path="/" title="home" />
-      <Counter path="/counter" title="counter" />
-      <About path="/about" title="about" />
       <NotFound default />
     </Router>
   </React.StrictMode>,
