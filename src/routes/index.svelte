@@ -16,6 +16,7 @@
 
 <svelte:head>
   <title>Brecon Sound Forage</title>
+  <meta name="description" content="An artscape residency at the Island Fields in Brecon, Mid Wales" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="true" />
   <link
@@ -27,7 +28,10 @@
 <section>
   <main>
     <div class="home">
-      <img src="site.jpg" alt="Island Fields map" />
+      <picture>
+        <source srcset="site.webp" type="image/webp" />
+        <img src="site.png" alt="Island Fields map" />
+      </picture>
       <div style="height: 3rem" />
       <p>
         Climate Change in Brecknockshire results in irregular storms and
@@ -48,15 +52,3 @@
     </div>
   </main>
 </section>
-
-<style>
-  .home {
-    padding: 2rem 2rem 5rem 2rem;
-    max-width: 70rem;
-    margin: auto;
-  }
-
-  .home p {
-    margin: 0.4rem;
-  }
-</style>
