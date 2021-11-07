@@ -34,3 +34,35 @@ p:last-child {
 img {
   width: 100%;
 }
+
+header,
+footer {
+  color: #333333;
+  width: 100vw;
+}
+
+header {
+  margin: auto;
+  max-width: 70rem;
+  padding: 2rem 2rem;
+}
+
+footer {
+  border-top: 1px solid #333333;
+}
+
+footer div {
+  margin: auto;
+  max-width: 70rem;
+  padding: 2rem 2rem;
+}
+
+.home {
+  padding: 2rem 2rem 5rem 2rem;
+  max-width: 70rem;
+  margin: auto;
+}
+
+.home p {
+  margin: 0.4rem;
+}
