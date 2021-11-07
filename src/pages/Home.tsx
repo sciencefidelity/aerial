@@ -5,11 +5,7 @@ import type { RouteComponentProps } from "@reach/router"
 import Layout from "@/components/Layout"
 import site from "@/images/site.jpg"
 
-interface Props extends RouteComponentProps {
-  title: string
-}
-
-const Home: FC<Props> = () => {
+const Home: FC = () => {
   return (
     <Layout>
       <div className="home">
@@ -24,10 +20,6 @@ const Home: FC<Props> = () => {
       </div>
     </Layout>
   )
-}
-
-Home.propTypes = {
-  title: PropTypes.string.isRequired
 }
 
 export default Home
