@@ -53,7 +53,7 @@
   .home {
     padding: 2rem 2rem 5rem 2rem;
     max-width: 70rem;
-    margin-right: auto;
+    margin: auto;
   }
 
   .home p {
