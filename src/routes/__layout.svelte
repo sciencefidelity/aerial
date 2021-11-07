@@ -1,11 +1,9 @@
 <script lang="ts">
-  import '../app.css';
+  import "../app.css"
 </script>
 
 <header>
-  <h1>
-    Brecon Sound Forage
-  </h1>
+  <h1>Brecon Sound Forage</h1>
 </header>
 
 <main>
@@ -13,7 +11,10 @@
 </main>
 
 <footer>
-  <p>&copy; {new Date().getFullYear()} <a href="https://mattcook.dev">Matt Cook</a></p>
+  <p>
+    &copy; {new Date().getFullYear()}
+    <a href="https://mattcook.dev">Matt Cook</a>
+  </p>
 </footer>
 
 <style>
