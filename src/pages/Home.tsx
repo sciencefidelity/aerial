@@ -4,16 +4,15 @@ import type { RouteComponentProps } from "@reach/router"
 
 import Layout from "@/components/Layout"
 import site from "@/images/site.jpg"
-import styles from "@/styles/Home.module.scss"
 
 interface Props extends RouteComponentProps {
   title: string
 }
 
-const Home: FC<Props> = ({ title }) => {
+const Home: FC<Props> = () => {
   return (
     <Layout>
-      <div className={styles[title]}>
+      <div className="home">
         <img src={site} alt="Island Fields map" />
         <div style={{height: "3rem"}}></div>
         <p>

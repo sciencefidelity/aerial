@@ -26,4 +26,7 @@ body {
 
 p {
   padding-bottom: 2rem;
+  &:last-child {
+    padding-bottom: 0;
+  }
 }
