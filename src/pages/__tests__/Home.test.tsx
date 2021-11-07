@@ -5,8 +5,8 @@ import Home from "@/pages/Home"
 
 describe("<Home>", () => {
   it("the header title", () => {
-    const { getByText } = render(<Home title="home" />)
-    const linkElement = getByText(/Create-React-Snowpack-App/i)
+    const { getByText } = render(<Home />)
+    const linkElement = getByText(/Brecon Sound Forage/i)
     expect(document.body.contains(linkElement))
   })
 })

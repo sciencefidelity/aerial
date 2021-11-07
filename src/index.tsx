@@ -13,7 +13,7 @@ import NotFound from "@/pages/404"
 ReactDOM.render(
   <React.StrictMode>
     <Router>
-      <Home path="/" title="home" />
+      <Home path="/" />
       <NotFound default />
     </Router>
   </React.StrictMode>,
