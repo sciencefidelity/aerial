@@ -7,7 +7,7 @@
   "private": true,
   "scripts": {
     "dev": "snowpack dev",
-    "build": "snowpack:w: build",
+    "build": "snowpack build",
     "serve": "serve build -l 8080",
     "clean": "rm -rf build && yarn snowpack --reload",
     "lint": "concurrently 'yarn:lint:*'",
