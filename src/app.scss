@@ -1,10 +1,9 @@
-* + * {
-  margin-top: 1rem;
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
+  & + * {
+    margin-top: 1rem;
+  }
 }
 
 html {
@@ -25,10 +24,9 @@ body {
 
 p {
   padding-bottom: 2rem;
-}
-
-p:last-child {
-  padding-bottom: 0;
+  &:last-child {
+    padding-bottom: 0;
+  }
 }
 
 img {
@@ -50,20 +48,18 @@ header {
 
 footer {
   border-top: 1px solid #333333;
-}
-
-footer div {
-  margin: auto;
-  max-width: 70rem;
-  padding: 2rem 2rem;
+  & div {
+    margin: auto;
+    max-width: 70rem;
+    padding: 2rem 2rem;
+  }
 }
 
 .home {
   padding: 2rem 2rem 5rem 2rem;
   max-width: 70rem;
   margin: auto;
-}
-
-.home p {
-  margin: 0.4rem;
+  & p {
+    margin: 0.4rem;
+  }
 }
