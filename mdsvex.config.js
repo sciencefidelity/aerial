@@ -1,38 +1,53 @@
-import mdsvexUrlToImport from "./mdsvex-url-to-import.js"
 import remarkGithub from "remark-github"
 import remarkAbbr from "remark-abbr"
-import rehypeSlug from "rehype-slug"
+import remarkGfm from "remark-gfm"
+
+import slug from "rehype-slug"
+import rehypePrism from "rehype-prism-plus"
+import rehypeHighlight from "rehype-highlight"
+import rehypeCodeTitles from "rehype-code-titles"
 import rehypeAutolinkHeadings from "rehype-autolink-headings"
+import { rehypeAccessibleEmojis } from "rehype-accessible-emojis"
 
 const config = {
-  layout: {
-    _: "./src/lib/MdLayouts/ArticleLayout.svelte",
-    faq: "./src/lib/MdLayouts/FaqLayout/FaqLayout.svelte"
-  },
   extensions: [".svelte.md", ".md", ".svx"],
+
   smartypants: {
     dashes: "oldschool"
   },
+
   remarkPlugins: [
     [
-      mdsvexUrlToImport,
       remarkGithub,
       {
-        // Use your own repository
-        repository: "https://github.com/svelte-add/mdsvex.git"
+        repository: "https://github.com/navneetsharmaui/sveltekit-blog.git"
       }
     ],
-    remarkAbbr
+    remarkAbbr,
+    remarkGfm
   ],
   rehypePlugins: [
-    rehypeSlug,
+    slug,
+    rehypePrism,
+    rehypeHighlight,
+    rehypeCodeTitles,
+    rehypeAccessibleEmojis,
     [
       rehypeAutolinkHeadings,
       {
-        behavior: "wrap"
+        behavior: "wrap",
+        properties: {
+          class: "anchor"
+        }
       }
     ]
-  ]
+  ],
+  layout: {
+    blog: "./src/lib/layouts/blog-layout/BlogLayout.svelte",
+    snippet: "./src/lib/layouts/snippets-layout/SnippetsLayout.svelte",
+    newsletter: "./src/lib/layouts/newsletter-layout/NewsLetterLayout.svelte",
+    _: "./src/lib/layouts/blog-layout/BlogLayout.svelte"
+  }
 }
 
 export default config
