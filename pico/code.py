@@ -1,4 +1,4 @@
-"""Loop and audio sample"""
+"""Play audio sample then wait 10 seconds before playing again"""
 import audiocore
 import board
 import time
@@ -10,7 +10,9 @@ wave = audiocore.WaveFile(wave_file)
 
 audio = audiobusio.I2SOut(board.GP10, board.GP11, board.GP9)
 
-audio.play(wave, loop=True)
+while True:
+    audio.play(wave)
+    time.sleep(10)
 
 while audio.playing:
     pass
