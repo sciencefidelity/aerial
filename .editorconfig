@@ -33,3 +33,8 @@ indent_size = 2
 [*.json]
 indent_style = space
 indent_size = 2
+
+# Python
+[*.py]
+indent_style = space
+indent_size = 4
