@@ -1,4 +1,3 @@
-"""Test script to Flash the onboard LED"""
 import time
 import board
 import digitalio
