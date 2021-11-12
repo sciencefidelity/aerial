@@ -1,16 +1,16 @@
-"""Loop and audio sample"""
 import audiocore
 import board
 import time
 import audiobusio
 import digitalio
 
-wave_file = open("StreetChicken.wav", "rb")
-wave = audiocore.WaveFile(wave_file)
+from audiomp3 import MP3Decoder
 
+mp3 = open("sound.mp3", "rb")
+decoder = MP3Decoder(mp3)
 audio = audiobusio.I2SOut(board.GP10, board.GP11, board.GP9)
 
-audio.play(wave, loop=True)
+audio.play(decoder, loop=True)
 
 while audio.playing:
     pass
