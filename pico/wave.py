@@ -1,3 +1,4 @@
+"""loop a wave file"""
 import audiocore
 import board
 import time

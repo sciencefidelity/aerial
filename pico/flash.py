@@ -1,3 +1,4 @@
+"""for testing – flash the onboard LED"""
 import time
 import board
 import digitalio

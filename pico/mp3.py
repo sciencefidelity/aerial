@@ -1,3 +1,4 @@
+"""loop an mp3 file with a period of silence between playback"""
 import audiocore
 import board
 import time
@@ -12,4 +13,4 @@ audio = audiobusio.I2SOut(board.GP10, board.GP11, board.GP9)
 
 while True:
     audio.play(decoder)
-    time.sleep(99)
+    time.sleep(120)
