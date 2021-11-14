@@ -4,17 +4,12 @@ import vercel from "@sveltejs/adapter-vercel"
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-  // Consult https://github.com/sveltejs/svelte-preprocess
-  // for more information about preprocessors
+  extensions: [".svelte", ".md"],
   preprocess: [
-    mdsvex(),
-    preprocess({
-      postcss: true,
-      defaults: {
-        style: "scss",
-        script: "typescript"
-      }
-    })
+    mdsvex({
+      extensions: [".svelte", ".md"]
+    }),
+    preprocess()
   ],
 
   kit: {
