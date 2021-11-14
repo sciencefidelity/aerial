@@ -38,7 +38,7 @@ Loop a single .wav file.
 
 - Wave file maximum mono, 22kHz, 16bit
 
-### Version 2 (proposed)
+### Version 2
 
 Loop a sound sample then wait for the length of the sample before playing again.
 
