@@ -23,7 +23,7 @@
     "eslint-plugin-svelte3": "^3.2.1",
     "mdsvex": "^0.9.8",
     "postcss": "^8.4.4",
-    "prettier": "^2.4.1",
+    "prettier": "^2.5.0",
     "prettier-plugin-svelte": "^2.4.0",
     "rehype-slug": "^5.0.0",
     "remark-abbr": "^1.4.1",
