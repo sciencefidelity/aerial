@@ -34,22 +34,22 @@
 
   header,
   footer {
-    color: var(--grey-800);
     width: 100vw;
+    color: var(--grey-800);
   }
 
   header {
-    margin: auto;
     max-width: 70rem;
-    padding: 2rem 2rem;
+    padding: 2rem;
+    margin: auto;
   }
 
   footer {
     border-top: 1px solid var(--grey-800);
-    & div {
-      margin: auto;
+    div {
       max-width: 70rem;
-      padding: 2rem 2rem;
+      padding: 2rem;
+      margin: auto;
     }
   }
 </style>

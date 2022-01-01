@@ -3,22 +3,22 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  & + * {
+  + * {
     margin-top: 1rem;
   }
 }
 
 html {
-  background-color: var(--grey-000);
   font-size: 62.5%;
+  background-color: var(--grey-000);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 body {
-  color: var(--grey-800);
-  font-family: 'Inconsolata', sans-serif;
-  font-size: calc(7px + 2vmin);
   margin: auto;
+  font-family: Inconsolata, sans-serif;
+  font-size: calc(7px + 2vmin);
   line-height: 1.25;
+  color: var(--grey-800);
 }
