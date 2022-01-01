@@ -8,33 +8,28 @@ root = true
 end_of_line = lf
 insert_final_newline = true
 charset = utf-8
+indent_style = space
 
 # html
 [*.html]
-indent_style = space
 indent_size = 2
 
-# svelte
+# Svelte
 [*.svelte]
-indent_style = space
 indent_size = 2
 
 # TypeScript, JavaScript
-[*.{ts,js,tsx,jsx}]
-indent_style = space
+[*.{ts,js,cjs}]
 indent_size = 2
 
 # scss
 [*.scss]
-indent_style = space
 indent_size = 2
 
 # json
 [*.json]
-indent_style = space
 indent_size = 2
 
 # Python
 [*.py]
-indent_style = space
 indent_size = 4

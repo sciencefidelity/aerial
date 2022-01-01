@@ -1,0 +1,12 @@
+.svelte-kit
+build
+functions
+node_modules
+generated
+pnpm-lock.yaml
+.nova
+.vscode
+*.cjs
+*.scss
+*.css
+*.css.map
