@@ -7,15 +7,15 @@
 }
 
 html {
-  background-color: #FFFFFF;
+  background-color: hsl(0, 0%, 100%);
   font-size: 62.5%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 body {
-  background-color: #FFFFFF;
-  color: #333333;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 20%);
   font-family: 'Inconsolata', sans-serif;
   font-size: calc(7px + 2vmin);
   margin: auto;
@@ -36,7 +36,7 @@ img {
 
 header,
 footer {
-  color: #333333;
+  color: hsl(0, 0%, 20%);
   width: 100vw;
 }
 
@@ -47,7 +47,7 @@ header {
 }
 
 footer {
-  border-top: 1px solid #333333;
+  border-top: 1px solid hsl(0, 0%, 20%);
   & div {
     margin: auto;
     max-width: 70rem;

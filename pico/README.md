@@ -1,6 +1,6 @@
 # Brecon Sound Forage
 
-This repo contains the files for the installation of *Brecon Sound Forage* at Y Gaer, Brecon.
+This repo contains the files for the installation of _Brecon Sound Forage_ at Y Gaer, Brecon.
 
 ## Installation of sounds on the Raspberry Pi Pico
 
@@ -20,17 +20,17 @@ cp ~/Sites/forage.works/pico/mp3.py ./code.py
 
 #### Time constants for each sound
 
-| Box Number    | Sound Number  | Time constant |
-| ------------- | ------------- | ------------- |
-| 1             | 008           | 103           |
-| 2             | 005           | 106           |
-| 4             | 015           | 109           |
-| 5             | 027           | 112           |
-| 6             | 003           | 115           |
-| 7             | 020           | 118           |
-| 8             | 024           | 121           |
-| 9             | 034           | 124           |
-| 10            | 035           | 127           |
+| Box Number | Sound Number | Time constant |
+| ---------- | ------------ | ------------- |
+| 1          | 008          | 103           |
+| 2          | 005          | 106           |
+| 4          | 015          | 109           |
+| 5          | 027          | 112           |
+| 6          | 003          | 115           |
+| 7          | 020          | 118           |
+| 8          | 024          | 121           |
+| 9          | 034          | 124           |
+| 10         | 035          | 127           |
 
 ### Version 1
 
