@@ -5,8 +5,6 @@ import { mdsvex } from "mdsvex"
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
   extensions: [".svelte", ".md"],
-  // Consult https://github.com/sveltejs/svelte-preprocess
-  // for more information about preprocessors
   preprocess: [
     mdsvex({
       extensions: [".svelte", ".md"]
@@ -15,8 +13,6 @@ const config = {
   ],
   kit: {
     adapter: adapter(),
-
-    // hydrate the <div id="svelte"> element in src/app.html
     target: "#svelte"
   }
 }
