@@ -1,6 +1,6 @@
 {
   "name": "forage.works",
-"version": "0.1.0",
+  "version": "0.1.0",
   "description": "",
   "author": "Matt Cook <sciencefidelity@hotmail.com>",
   "license": "UNLICENSED",
@@ -41,11 +41,15 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-svelte3": "^3.2.1",
+    "mdsvex": "^0.9.8",
     "postcss": "^8.4.5",
     "postcss-html": "^1.3.0",
     "postcss-scss": "^4.0.2",
     "prettier": "^2.4.1",
     "prettier-plugin-svelte": "^2.4.0",
+    "rehype-slug": "^5.0.1",
+    "remark-abbr": "^1.4.1",
+    "remark-github": "^11.2.2",
     "sass": "^1.45.2",
     "stylelint": "^14.2.0",
     "stylelint-config-html": "^1.0.0",
@@ -64,4 +68,3 @@
     "typescript": "^4.4.3"
   }
 }
-
