@@ -1,5 +1,9 @@
 <script lang="ts">
-  import "../app.scss"
+  import "sanitize.css/sanitize.css"
+  import "sanitize.css/assets.css"
+  import "sanitize.css/reduce-motion.css"
+  import "sanitize.css/typography.css"
+  import "../styles/app.scss"
 </script>
 
 <header>
@@ -18,3 +22,34 @@
     </p>
   </div>
 </footer>
+
+<style lang="scss">
+  p {
+    padding-bottom: 2rem;
+    margin: 0.4rem;
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
+
+  header,
+  footer {
+    color: var(--grey-800);
+    width: 100vw;
+  }
+
+  header {
+    margin: auto;
+    max-width: 70rem;
+    padding: 2rem 2rem;
+  }
+
+  footer {
+    border-top: 1px solid var(--grey-800);
+    & div {
+      margin: auto;
+      max-width: 70rem;
+      padding: 2rem 2rem;
+    }
+  }
+</style>

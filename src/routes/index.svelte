@@ -1,6 +1,6 @@
 <script context="module">
   import { browser, dev } from "$app/env"
-  import Index from "../index.md"
+  import Index from "../md/index.md"
   export const hydrate = dev
   export const router = browser
   export const prerender = true
@@ -30,3 +30,16 @@
     <Index />
   </div>
 </main>
+
+<style lang="scss">
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .home {
+    padding: 2rem 2rem 5rem 2rem;
+    max-width: 70rem;
+    margin: auto;
+  }
+</style>
