@@ -5,6 +5,7 @@
     "lib": ["es2020", "DOM"],
     "target": "es2020",
     "importsNotUsedAsValues": "error",
+    "preserveValueImports": true,
     "isolatedModules": true,
     "resolveJsonModule": true,
     "sourceMap": true,
@@ -13,7 +14,7 @@
     "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
     "allowJs": true,
-    "checkJs": false,
+    "checkJs": true,
     "paths": {
       "$lib": ["src/lib"],
       "$lib/*": ["src/lib/*"]
