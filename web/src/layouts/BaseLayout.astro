@@ -1,0 +1,72 @@
+---
+import "sanitize.css/sanitize.css"
+import "sanitize.css/assets.css"
+import "sanitize.css/reduce-motion.css"
+import "sanitize.css/typography.css"
+import "styles/global.scss"
+---
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Brecon Sound Forage</title>
+    <meta
+      name="description"
+      content="An artscape residency at the Island Fields in Brecon, Mid Wales"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="true" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="/favicon.svg" />
+  </head>
+  <body>
+    <header>
+      <h1>Brecon Sound Forage</h1>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer>
+      <div>
+        <p>
+          &copy; {new Date().getFullYear()}
+          <a href="https://mattcook.dev">Matt Cook</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<style lang="scss">
+  p {
+    padding-bottom: 2rem;
+    margin: 0.4rem;
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
+
+  header,
+  footer {
+    width: 100vw;
+    color: var(--grey-800);
+  }
+
+  header {
+    max-width: 70rem;
+    padding: 2rem;
+    margin: auto;
+  }
+
+  footer {
+    border-top: 1px solid var(--grey-800);
+    div {
+      max-width: 70rem;
+      padding: 2rem;
+      margin: auto;
+    }
+  }
+</style>
