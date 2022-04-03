@@ -1,7 +1,6 @@
 ---
 import { Markdown } from "astro/components"
 import BaseLayout from "layouts/BaseLayout.astro"
-const content = await fetch("../md/index.md")
 ---
 <BaseLayout title="home">
   <div class="home">
@@ -15,6 +14,13 @@ const content = await fetch("../md/index.md")
 
       Artscape artist-in-residence Matt Cook has developed this work through a series of interactions with ornithologist Andrew King; the Biodiversity Information Service for Powys and local green wood workers.
     </Markdown>
+    <div class="embed-container">
+      <iframe
+        src="https://player.vimeo.com/video/672470696?h=4324d8b92c&amp;title=0&amp;byline=0&amp;portrait=0&amp;dnt=1"
+        allowfullscreen
+        loading="lazy"
+      ></iframe>
+    </div>
   </div>
 </BaseLayout>
 
@@ -28,5 +34,24 @@ const content = await fetch("../md/index.md")
     max-width: 70rem;
     padding: 2rem 2rem 5rem;
     margin: auto;
+  }
+
+  .embed-container {
+    margin-top: 4rem;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+  }
+
+  .embed-container iframe,
+  .embed-container object,
+  .embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
   }
 </style>
