@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/sciencefidelity/forage.works#readme",
   "devDependencies": {
-    "eslint": "^8.12.0",
-    "typescript": "^4.6.3"
+    "eslint": "^8.17.0",
+    "typescript": "^4.7.3"
   }
 }
