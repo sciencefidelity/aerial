@@ -1,38 +1,6 @@
-# create-svelte
+# Brecon Sound Forage
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+### Artist in residence in Brecon during the Artscape project.
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Climate Change in Brecknockshire results in irregular storms and significant increases in rainfall. A series of field recordings gathered throughout Autumn 2021, this work celebrates, archives and critiques the biodiversity of Brecon’s Island Fields, a flood plain situated between the River Usk and the Monmouthshire and Brecon Canal on the edge of the town. The whole ecosystem here is at risk due to increased flooding at times of the year when the nature here is vulnerable. The Island Fields is a space well loved by the local community for walking, playing, swimming and the enjoyment of the natural World.
+Artscape artist-in-residence Matt Cook has developed this work through a series of interactions with ornithologist Andrew King; the Biodiversity Information Service for Powys and local green wood workers.
